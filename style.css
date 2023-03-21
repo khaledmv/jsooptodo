@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: rgb(226, 238, 247);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color:rgb(114, 115, 115);
+    margin-top:10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.container .form{
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form input{
+    width: 70%;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    outline: 0;
+    transition: all 500ms ease-out;
+    padding-left: 20px;
+    
+}
+
+.form input:focus{
+
+    background-color:rgb(241, 252, 242);
+    width: 80%;
+    transition: all 500ms ease-in;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.form button{
+    padding: 10px 30px;
+    border: none;
+    background: rgb(104, 180, 246);
+    color:#fff;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bx-folder-plus{
+    font-size: 30px;
+}
+
+.todo{
+    max-width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    box-shadow: rgba(134, 133, 133, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    
+}
+
+
+.lists p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    cursor: pointer;
+}
+.bx-trash{
+    font-size: 30px;
+}
